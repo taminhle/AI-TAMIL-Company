@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
-import { ArrowRight, Sparkles, Database, Layout, ShieldCheck, Zap } from "lucide-react";
+import { ArrowRight, Sparkles, Database, Layout, Zap } from "lucide-react";
 
 export default async function Home() {
   const supabase = createClient();
